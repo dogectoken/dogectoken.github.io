@@ -191,7 +191,7 @@ function addToWallet() {
         'type': 'ERC20',
         'options': {
           'address': '0x2083b586fa04d7eee701c0f55b1e9742f217c1ff',
-          'symbol': 'RONK',
+          'symbol': 'DogeC',
           'decimals': '18',
           'image': '',
         },
@@ -231,7 +231,7 @@ if(!/^(0x){1}[0-9a-fA-F]{40}$/i.test(referaladd)){
   'error'
 )
 }else{
-    document.getElementById('refaddress').value = 'https://ronk.club/?ref=' + document.getElementById('refaddress').value;
+    document.getElementById('refaddress').value = 'https://dogectoken.github.io/?ref=' + document.getElementById('refaddress').value;
 }
 }
 }
